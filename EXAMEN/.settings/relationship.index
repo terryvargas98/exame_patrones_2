@@ -1,0 +1,64 @@
+[ {
+  "baseItem" : {
+    "id" : "_f_UuEAlqEeuWPb_AqSXvDQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_28OVYAlvEeuWPb_AqSXvDQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_9P95cAlxEeuWPb_AqSXvDQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendStringUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_28OVYAlvEeuWPb_AqSXvDQ - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_9P95cAlxEeuWPb_AqSXvDQ - ventas_depuradas",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_9P95cAlxEeuWPb_AqSXvDQ - ventas_rechazadas",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]

@@ -1,0 +1,34 @@
+@startuml
+package "Producer"{
+[Excel]
+}
+[Excel]--> [no_data_repeat]
+
+[no_data_repeat]-->[no_assigned_client]
+ 
+[no_assigned_client] --> [ventas_mayores0]
+
+[ventas_mayores0]--> [naturaloempresa]
+
+database "Examen" {
+
+[naturaloempresa]-->tablas_depuradas
+
+}
+
+
+
+[Excel]--> [data_repeat]
+
+[data_repeat]-->[client_null]
+ 
+[client_null] --> [ventas_igual0]
+
+[ventas_igual0]--> [natural_empresa]
+
+database "Examen" {
+
+[natural_empresa]-->tablas_rechazadas
+
+}
+@enduml
